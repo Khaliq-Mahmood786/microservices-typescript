@@ -22,6 +22,6 @@ export class Init {
     this._express.listen(process.env.PORT, () => {console.log("app is running on port " + process.env.PORT)})
     }
 }
-new Init();
+
 
 
